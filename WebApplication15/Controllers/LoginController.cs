@@ -18,7 +18,26 @@ namespace WebApplication15.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public async Task<IActionResult> AdminPage(AdminPageViewModel model)
+        {
+            var email=model.Email;
+            var passwordAdmin=model.PassWord;
+            var user = await _appDbContext.Admins.FirstOrDefaultAsync(u=>u.Email==email&u.Password==passwordAdmin);
+            if (user != null)
+            {
+                // Kullanıcı adı bulundu, işlemlerinizi gerçekleştirin...
 
+                return RedirectToAction("Index", "AdminHomePage"); // Örneğin, başka bir sayfaya yönlendirme
+            }
+            else
+            {
+                // Kullanıcı adı bulunamadı, uygun bir işlem gerçekleştir...
+                ViewData["Error2"] = "User do not find.";
+
+                return View(model);
+            }
+        }
 
         [HttpGet]
         public IActionResult LoginPage()
