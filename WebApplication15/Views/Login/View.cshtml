@@ -1,0 +1,83 @@
+﻿@model WebApplication15.Models.UpdateUserViewModel;
+
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+@{
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 50px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4caf50;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>User Registration Form</h2>
+
+    <form asp-controller="Login" asp-action="View" method="post">
+         <label for="name">Id:</label>
+        <input type="text" asp-for="Id"  readonly>
+        <label for="name">Name:</label>
+        <input type="text" asp-for="UserName"  required>
+
+        <label for="surname">Surname:</label>
+        <input type="text" asp-for="UserSurname"  required>
+
+        <label for="password">Password:</label>
+        <input type="password" asp-for="PassWord"  required>
+
+        
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
