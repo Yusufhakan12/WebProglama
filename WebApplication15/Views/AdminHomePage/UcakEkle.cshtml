@@ -1,0 +1,193 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "asdasd";
+}
+
+
+<section class="contact section-padding">
+    <div class="container">
+        <div class="row mb-90">
+            <div class="col-12 mb-30">
+                <div class="sidebar">
+                    <div class="right-sidebar">
+                        <div class="right-sidebar item">
+                            <h2>Uçak Ekle</h2>
+                            <form method="post" class="right-sidebar item-form contact__form" action="">
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <input name="name" type="text" placeholder="Uçak Adı *" required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="butn-dark"><a><span>Ekle</span></a></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mb-90">
+            <div class="col-12 mb-30">
+                <div class="sidebar">
+                    <div class="right-sidebar">
+                        <div class="right-sidebar item">
+                            <h2>Uçak Seferi Ekle</h2>
+                            <form method="post" class="right-sidebar item-form contact__form" action="">
+                                <div class="row">
+                                    <div class="col-md-6 form-group select1_inner">
+                                        <select class="select2 select" name="ucak">
+                                            <option value="0">Uçak Seç</option>
+                                            <option value="1">Uçak 1</option>
+                                            <option value="2">Uçak 2</option>
+                                            <option value="3">Uçak 3</option>
+                                            <option value="4">Uçak 4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="nerden" type="text" placeholder="Nerden *" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="nerden" type="text" placeholder="Nereye *" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="tarih" type="text" placeholder="25 Aralık 2023 *" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="saat" type="text" placeholder="15.00 *" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="fiyat" type="text" placeholder="1500 *" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="kontenjan" type="text" placeholder="20 *" required>
+                                    </div>
+                                    <div class="col-md-6 form-group">
+                                        <input name="image" type="file" placeholder="Kapak Fotoğraf *" required>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button class="butn-dark"><a><span>Ekle</span></a></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="row mb-90">
+            <div class="col-12 mb-30">
+                <div class="sidebar">
+                    <div class="right-sidebar">
+                        <div class="right-sidebar item">
+                            <h2>Uçak Seferi Düzenle</h2>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">Nereden</th>
+                                    <th scope="col">Nereye</th>
+                                    <th scope="col">Uçak Adı</th>
+                                    <th scope="col">Tarih</th>
+                                    <th scope="col">Güncelle</th>
+                                    <th scope="col">Sil</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>İstanbul</td>
+                                    <td>Roma</td>
+                                    <td>Uçak 1</td>
+                                    <td>25 Aralık 2023</td>
+                                    <td>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                            Güncelle
+                                        </button>
+                                        <!-- Modal -->
+                                        <div class="modal fade bd-example-modal-lg" id="exampleModalCenter" tabindex="-1" role="dialog"
+                                             aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="exampleModalLongTitle">Uçak Seferi Güncelle</h5>
+                                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                            <span aria-hidden="true">&times;</span>
+                                                        </button>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        <form method="post"
+                                                              class="right-sidebar item-form contact__form" action="">
+                                                            <div class="row">
+                                                                <div class="col-md-6 form-group select1_inner">
+                                                                    <select class="select2 select" name="ucak">
+                                                                        <option value="0">Uçak Seç</option>
+                                                                        <option value="1">Uçak 1</option>
+                                                                        <option value="2">Uçak 2</option>
+                                                                        <option value="3">Uçak 3</option>
+                                                                        <option value="4">Uçak 4</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-md-6 form-group">
+                                                                    <input name="nerden" type="text"
+                                                                           placeholder="Nerden *" required>
+                                                                </div>
+                                                                <div class="col-md-6 form-group">
+                                                                    <input name="nerden" type="text"
+                                                                           placeholder="Nereye *" required>
+                                                                </div>
+                                                                <div class="col-md-6 form-group">
+                                                                    <input name="tarih" type="text"
+                                                                           placeholder="25 Aralık 2023 *" required>
+                                                                </div>
+                                                                <div class="col-md-6 form-group">
+                                                                    <input name="saat" type="text" placeholder="15.00 *"
+                                                                           required>
+                                                                </div>
+                                                                <div class="col-md-6 form-group">
+                                                                    <input name="fiyat" type="text" placeholder="1500 *"
+                                                                           required>
+                                                                </div>
+                                                                <div class="col-md-6 form-group">
+                                                                    <input name="kontenjan" type="text"
+                                                                           placeholder="20 *" required>
+                                                                </div>
+                                                                <div class="col-md-6 form-group">
+                                                                    <input name="image" type="file"
+                                                                           placeholder="Kapak Fotoğraf *" required>
+                                                                </div>
+                                                                <div class="col-md-12">
+                                                                    <button class="butn-dark"><a><span>Ekle</span></a>
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                                data-dismiss="modal">Close
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary">Kaydet</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                    </td>
+                                    <td><a href="" class="btn btn-danger">Sil</a></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+

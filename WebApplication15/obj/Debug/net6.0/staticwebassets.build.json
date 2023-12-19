@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yM9N3rpQibU7pXr7h1+/+qGhvr0Ap7e+n+NUkBzteyo=",
+  "Hash": "JhluP3YU0m5vYyU36uzPH0wlPf46FJqWhVDOrybuY4o=",
   "Source": "WebApplication15",
   "BasePath": "_content/WebApplication15",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "WebApplication15\\wwwroot",
       "Source": "WebApplication15",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\bg.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\bg.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "bg.jpg",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\bg.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\Login.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\Login.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/Login.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\animate.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\animate.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/animate.min.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\animate.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\bootstrap.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\bootstrap.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\close.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\close.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/close.png",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\close.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\datepicker.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\datepicker.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/datepicker.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\datepicker.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\flaticon.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\flaticon.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/flaticon.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\flaticon.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\magnific-popup.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\magnific-popup.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/magnific-popup.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\magnific-popup.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\owl.carousel.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/owl.carousel.min.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\owl.theme.default.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\owl.theme.default.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/owl.theme.default.min.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\owl.theme.default.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\select2.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\select2.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/select2.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\select2.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\themify-icons.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\themify-icons.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/themify-icons.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\themify-icons.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\plugins\\YouTubePopUp.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\plugins\\YouTubePopUp.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/plugins/YouTubePopUp.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\plugins\\YouTubePopUp.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\site.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\css\\style.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\favicon.ico",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\about.jpeg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\about.jpeg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/about.jpeg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about.jpeg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\arrow1.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\arrow1.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/arrow1.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\img\\arrow1.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\banner1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\banner1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/banner1.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\banner2.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\banner2.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/banner2.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner2.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\banner3.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\banner3.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/banner3.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner3.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\banner4.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\banner4.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/banner4.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\img\\banner4.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/1.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\11.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\11.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/11.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\11.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\2.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\2.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/2.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\22.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\22.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/22.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\22.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\3.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\3.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/3.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\33.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\33.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/33.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\33.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\4.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\4.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/4.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\44.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\44.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/44.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\44.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\5.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\5.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/5.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\blog\\6.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\blog\\6.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/blog/6.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\img\\blog\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\clients\\1.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\clients\\1.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/clients/1.png",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\1.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\clients\\2.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\clients\\2.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/clients/2.png",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\2.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\clients\\3.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\clients\\3.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/clients/3.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\3.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\clients\\4.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\clients\\4.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/clients/4.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\img\\clients\\4.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\aosta1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\aosta1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/aosta1.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\aosta1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\canada1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\canada1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/canada1.jpg",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\canada1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\dubai1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\dubai1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/dubai1.jpg",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\dubai1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\france1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\france1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/france1.jpg",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\france1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\france-bordeaux1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\france-bordeaux1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/france-bordeaux1.jpg",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\france-bordeaux1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\france-cannes1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\france-cannes1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/france-cannes1.jpg",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\france-cannes1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\france-lyon1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\france-lyon1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/france-lyon1.jpg",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\france-lyon1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\france-marsielle1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\france-marsielle1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/france-marsielle1.jpg",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\france-marsielle1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\france-normandiya1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\france-normandiya1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/france-normandiya1.jpg",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\france-normandiya1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\france-paris1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\france-paris1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/france-paris1.jpg",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\france-paris1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\greece1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\greece1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/greece1.jpg",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\greece1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\italy1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\italy1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/italy1.jpg",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\italy1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\maldives1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\maldives1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/maldives1.jpg",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\maldives1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\milano.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\milano.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/milano.jpg",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\milano.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\parma1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\parma1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/parma1.jpg",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\parma1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\perugia1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\perugia1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/perugia1.jpg",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\perugia1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\rome1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\rome1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/rome1.jpg",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\rome1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\destination\\venice1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\destination\\venice1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/destination/venice1.jpg",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\img\\destination\\venice1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\dots.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\dots.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/dots.png",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\img\\dots.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\favicon.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\favicon.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/favicon.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\logo.psd",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\logo.psd",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/logo.psd",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.psd"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\logo-dark.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\logo-dark.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/logo-dark.png",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo-dark.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\logo-light.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\logo-light.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/logo-light.png",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo-light.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\map1.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\map1.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/map1.png",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\img\\map1.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\map2.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\map2.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/map2.png",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\img\\map2.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\quot.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\quot.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/quot.png",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\img\\quot.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/1.jpg",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\10.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\10.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/10.jpg",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\10.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\11.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\11.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/11.jpg",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\11.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\12.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\12.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/12.jpg",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\12.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\13.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\13.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/13.jpg",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\13.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\14.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\14.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/14.jpg",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\14.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\15.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\15.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/15.jpg",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\15.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\16.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\16.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/16.jpg",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\16.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\17.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\17.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/17.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\17.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\2.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\2.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/2.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\2.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\3.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\3.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/3.jpg",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\3.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\4.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\4.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/4.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\4.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\5.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\5.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/5.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\5.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\6.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\6.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/6.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\6.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\7.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\7.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/7.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\7.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\8.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\8.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/8.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\8.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\slider\\9.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\slider\\9.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/slider/9.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider\\9.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\team\\01.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\team\\01.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/team/01.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team\\01.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\team\\02.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\team\\02.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/team/02.jpg",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team\\02.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\team\\03.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\team\\03.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/team/03.jpg",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team\\03.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\team\\04.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\team\\04.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/team/04.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team\\04.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\team\\05.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\team\\05.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/team/05.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team\\05.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\team\\06.png",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\team\\06.png",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/team/06.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\img\\team\\06.png"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\canada1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\canada1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/canada1.jpg",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\canada1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\france1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\france1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/france1.jpg",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\france1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\france2.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\france2.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/france2.jpg",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\france2.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\greece1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\greece1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/greece1.jpg",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\greece1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\italy1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\italy1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/italy1.jpg",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\italy1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\maldives1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\maldives1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/maldives1.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\maldives1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\maldives2.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\maldives2.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/maldives2.jpg",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\maldives2.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\maldives3.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\maldives3.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/maldives3.jpg",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\maldives3.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\maldives4.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\maldives4.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/maldives4.jpg",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\maldives4.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\maldives5.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\maldives5.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/maldives5.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\maldives5.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\img\\tours\\rome1.jpg",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\tours\\rome1.jpg",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "img/tours/rome1.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\img\\tours\\rome1.jpg"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\bootstrap.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\custom.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\custom.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/custom.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\datepicker.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\datepicker.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/datepicker.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\js\\datepicker.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\imagesloaded.pkgd.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\imagesloaded.pkgd.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/imagesloaded.pkgd.min.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\js\\imagesloaded.pkgd.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\jquery.counterup.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\jquery.counterup.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/jquery.counterup.min.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.counterup.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\jquery.isotope.v3.0.2.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\jquery.isotope.v3.0.2.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/jquery.isotope.v3.0.2.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.isotope.v3.0.2.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\jquery.magnific-popup.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\jquery.magnific-popup.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/jquery.magnific-popup.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.magnific-popup.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\jquery.stellar.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\jquery.stellar.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/jquery.stellar.min.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.stellar.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\jquery.waypoints.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\jquery.waypoints.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/jquery.waypoints.min.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery.waypoints.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\jquery-3.6.3.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\jquery-3.6.3.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/jquery-3.6.3.min.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.6.3.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\jquery-migrate-3.0.0.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\jquery-migrate-3.0.0.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/jquery-migrate-3.0.0.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-migrate-3.0.0.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\modernizr-2.6.2.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\modernizr-2.6.2.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/modernizr-2.6.2.min.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\js\\modernizr-2.6.2.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\owl.carousel.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\pace.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\pace.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/pace.js",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\js\\pace.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\popper.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\popper.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/popper.min.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\js\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\scrollIt.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\scrollIt.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/scrollIt.min.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scrollIt.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\select2.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\select2.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/select2.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\js\\select2.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\site.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\smooth-scroll.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\smooth-scroll.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/smooth-scroll.min.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\js\\smooth-scroll.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\sticky-kit.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\sticky-kit.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/sticky-kit.min.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sticky-kit.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\js\\YouTubePopUp.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\js\\YouTubePopUp.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "js/YouTubePopUp.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\js\\YouTubePopUp.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "WebApplication15",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yusuf\\source\\repos\\WebApplication15\\WebApplication15\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
       "BasePath": "_content/WebApplication15",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

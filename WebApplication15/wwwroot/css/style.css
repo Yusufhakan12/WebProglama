@@ -386,7 +386,10 @@ blockquote {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+.bg-img2 {
+    
+    background-image: url("../img/slider/15.jpg");
+}
 .bg-fixed {
     background-attachment: fixed;
 }
@@ -927,6 +930,9 @@ blockquote {
     padding-top: 0;
     padding-bottom: 0;
     height: 90px;
+}
+.navbar2 {
+    background: #0f2454;
 }
 
     .navbar .container {

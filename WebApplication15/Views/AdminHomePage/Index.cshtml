@@ -1,21 +1,14 @@
 ﻿@model List<WebApplication15.Data.User>
-
 @{
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+    ViewData["panel"]="User";
 }
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tablo Tasarımı</title>
+    
     <style>
-        body {
-            text-align: center;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
+       
 
         h2 {
             margin-bottom: 20px;
@@ -40,8 +33,7 @@
     </style>
 </head>
 <body>
-<h1>Users</h1>
-
+    <section class="contact section-padding">
   <table>
 <thead>
     <tr>
@@ -63,6 +55,7 @@
     }
 </tbody>
   </table>
+  </section>
   </body>
 </html>
 
