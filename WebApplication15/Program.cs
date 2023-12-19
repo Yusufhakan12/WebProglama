@@ -6,6 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 // PostgreSQL veritabaný baðlantýsý ekleniyor
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("WebApiDatabase")));
+builder.Services.AddDbContext<AppDbUcakContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("UcakApiDatabase")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
