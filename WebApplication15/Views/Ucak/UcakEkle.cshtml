@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
     ViewData["Title"] = "asdasd";
     ViewData["panel"] = "Ucak ekleme";
 }
@@ -71,7 +71,7 @@
                                             </select>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="tarih" type="text" placeholder="25 Aralık 2023 *" required>
+                                        <input type="text" class="form-control input datepicker" placeholder="Gidiş Tarihi" required>
                                     </div>
                                     <div class="col-md-6 form-group">
                                         <input name="saat" type="text" placeholder="15.00 *" required>
@@ -206,5 +206,18 @@
 
     </div>
 </section>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- jQuery UI -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script>
+   $(function() {
+      $(".datepicker").datepicker({
+         dateFormat: 'dd.mm.yy' // örnek bir Türk tarih formatı
+      });
+   });
+</script>
 </body>
 </html>

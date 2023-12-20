@@ -19,5 +19,6 @@ namespace WebApplication15.Data
 
         }
         public DbSet<FlyName> FlyNames { get; set; }
+        public DbSet<Voyage>Voyages { get; set; }
     }
 }
