@@ -1,6 +1,6 @@
-﻿@model WebApplication15.Models.SeferEkleViewModel;
+﻿@model WebApplication15.Models.SeferUpdateViewModel;
 @{
-    
+
     Layout = "~/Views/Shared/_adminLayout.cshtml";
     ViewData["Title"] = "asdasd";
     ViewData["panel"] = "Ucak ekleme";
@@ -12,24 +12,17 @@
 <section class="contact section-padding">
     </div>
     <div class="container">
-         
+
         <div class="row mb-90">
             <div class="col-12 mb-30">
                 <div class="sidebar">
                     <div class="right-sidebar">
                         <div class="right-sidebar item">
                             <h2>Uçak Seferi Ekle</h2>
-                            <form method="post" class="right-sidebar item-form contact__form"  asp-action="UcakEkle" asp-controller="Ucak" >
+                            <form method="post" class="right-sidebar item-form contact__form"  asp-action="SeferGuncelle" asp-controller="Ucak" >
                                 <div class="row">
                                     <div class="col-md-6 form-group select1_inner">
-                                           <select class="select2 select" asp-for="AirPlaneName">
-                                               <option value="0">Nereden </option>
-                                                <option value="Ucak1">Ucak1</option>
-                                                <option value="Ucak2">Ucak2</option>
-                                                <option value="Ucak3">Ucak3</option>
-                                            
-
-                                        </select>
+                                         <input asp-for="VoyageId" readonly/>
                                     </div>
                                     <div class="col-md-6 form-group">
                                          <select class="select2 select" asp-for="From" >
@@ -54,8 +47,8 @@
                                     <div class="col-md-6 form-group">
                                         <input asp-for="FromDate"  type="text" class="form-control input datepicker" placeholder="Gidiş Tarihi" required>
                                     </div>
-                 
-                                   
+
+
                                     <div class="col-md-6 form-group">
                                         <input asp-for="capacity" type="text" placeholder="20 *" required>
                                     </div>
