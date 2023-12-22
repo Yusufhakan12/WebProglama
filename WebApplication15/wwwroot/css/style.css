@@ -390,6 +390,46 @@ blockquote {
     
     background-image: url("../img/slider/15.jpg");
 }
+.bg-img3 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/slider/2.jpg");
+}
+.bg-img4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/destination/maldives1.jpg");
+}
+.bg-img5 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/destination/france1.jpg");
+}
+.bg-img6 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/destination/dubai1.jpg");
+}
+.bg-img7 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/destination/greece1.jpg");
+}
+.bg-img8 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/destination/italy1.jpg");
+}
+.bg-img9 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/destination/canada1.jpg");
+}
+.bg-img10 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/destination/perugia1.jpg");
+}
 .bg-fixed {
     background-attachment: fixed;
 }

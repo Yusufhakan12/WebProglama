@@ -62,7 +62,7 @@ namespace WebApplication15.Controllers
                 {
                   VoyageId=Flys.VoyageId,
                   From = Flys.From,
-                  FromDate = Flys.FromDate,
+                  FromDate = Flys.FromDate.ToUniversalTime(),
                   To = Flys.To,
                   AirPlaneName = Flys.AirPlaneName,
                   capacity=Flys.capacity
@@ -91,6 +91,18 @@ namespace WebApplication15.Controllers
 
                 return RedirectToAction("SeferDuzenle", "Ucak");
 
+            }
+            return RedirectToAction("SeferDuzenle", "Ucak");
+        }
+        [HttpPost]
+        public async Task<IActionResult>DeleteVoyage(SeferUpdateViewModel model)
+        {
+            var Flys = await _appDbUcakContext.Voyages.FindAsync(model.VoyageId);
+            if(Flys!=null)
+            {
+                _appDbUcakContext.Voyages.Remove(Flys);
+                await _appDbUcakContext.SaveChangesAsync();
+                return RedirectToAction("SeferDuzenle", "Ucak");
             }
             return RedirectToAction("SeferDuzenle", "Ucak");
         }

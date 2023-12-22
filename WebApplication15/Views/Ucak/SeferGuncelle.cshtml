@@ -21,27 +21,27 @@
                             <h2>Uçak Seferi Ekle</h2>
                             <form method="post" class="right-sidebar item-form contact__form"  asp-action="SeferGuncelle" asp-controller="Ucak" >
                                 <div class="row">
-                                    <div class="col-md-6 form-group select1_inner">
-                                         <input asp-for="VoyageId" readonly/>
+                                    <div class="col-md-6 form-group">
+                                         <input type="text" asp-for="VoyageId" readonly/>
                                     </div>
                                     <div class="col-md-6 form-group">
                                          <select class="select2 select" asp-for="From" >
-                                                <option value="0">Nereden </option>
+                                                <option value="" disabled selected hidden>Nereden</option>
                                                 <option value="Italy">Italy</option>
                                                 <option value="Maldives">Maldives</option>
                                                 <option value="Greece">Greece</option>
                                                 <option value="France">France</option>
-                                                <option value="Canada"></option>
+                                                <option value="Canada">Canada</option>
                                             </select>
                                     </div>
                                     <div class="col-md-6 form-group">
                                         <select class="select2 select" asp-for="To">
-                                                <option value="0">Nereden </option>
+                                                <option value="" disabled selected hidden>Nereye</option>
                                                  <option value="Italy">Italy</option>
                                                 <option value="Maldives">Maldives</option>
                                                 <option value="Greece">Greece</option>
                                                 <option value="France">France</option>
-                                                <option value="Canada"></option>
+                                                <option value="Canada">Canada</option>
                                             </select>
                                     </div>
                                     <div class="col-md-6 form-group">
@@ -50,12 +50,14 @@
 
 
                                     <div class="col-md-6 form-group">
-                                        <input asp-for="capacity" type="text" placeholder="20 *" required>
+                                        <input asp-for="capacity" type="number" placeholder="20 *" required>
                                     </div>
 
                                     <div class="col-md-12">
                                         <button class="butn-dark" type="submit" ><a><span>Ekle</span></a></button>
+                                        <button asp-action="DeleteVoyage" asp-controller="Ucak" type="submit" class="btn btn-danger " > <span>Sil</span></button>
                                     </div>
+                                    
                                 </div>
                             </form>
                         </div>
@@ -79,6 +81,48 @@
          dateFormat: 'dd.mm.yy' // örnek bir Türk tarih formatı
       });
    });
+</script>
+
+
+Eğer kullanıcının aynı şehri ya da ülkeyi hem "From" hem de "To" alanında seçmesini engellemek istiyorsanız, JavaScript kullanarak basit bir kontrol ekleyebilirsiniz. İşte bu kontrolü yapmak için bir örnek:
+
+html
+Copy code
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Select2 öğelerini seç
+        var fromSelect = document.querySelector('[name="From"]');
+        var toSelect = document.querySelector('[name="To"]');
+
+        // Olay dinleyicisi ekle
+        fromSelect.addEventListener('change', function () {
+            // "From" seçimini "To" seçiminden kaldır
+            var selectedOptionValue = this.value;
+            var toOptions = toSelect.querySelectorAll('option');
+
+            toOptions.forEach(function (option) {
+                if (option.value === selectedOptionValue) {
+                    option.disabled = true;
+                } else {
+                    option.disabled = false;
+                }
+            });
+        });
+
+        toSelect.addEventListener('change', function () {
+            // "To" seçimini "From" seçiminden kaldır
+            var selectedOptionValue = this.value;
+            var fromOptions = fromSelect.querySelectorAll('option');
+
+            fromOptions.forEach(function (option) {
+                if (option.value === selectedOptionValue) {
+                    option.disabled = true;
+                } else {
+                    option.disabled = false;
+                }
+            });
+        });
+    });
 </script>
 </body>
 </html>

@@ -1,0 +1,494 @@
+﻿@model WebApplication15.Models.SeferEkleViewModel;
+@{
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<body>
+  
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo-wrapper">
+                <a class="logo" href="anasayfa.html"> <img src="img/logo-light.png" class="logo-img" alt=""> </a>
+                <!-- <a class="logo" href="anasayfa.html"> <h2>TRAVOL <span>explore the world</span></h2> </a> -->
+            </div>
+            <!-- Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+            <!-- Menu -->
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home <i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="anasayfa.html" class="dropdown-item"><span>Home Layout 1</span></a></li>
+                            <li><a href="index2.html" class="dropdown-item"><span>Home Layout 2</span></a></li>
+                            <li><a href="index3.html" class="dropdown-item"><span>Home Layout 3</span></a></li>
+                            <li><a href="index4.html" class="dropdown-item"><span>Home Layout 4</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Tours <i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="tours.html" class="dropdown-item"><span>Tours 1</span></a></li>
+                            <li><a href="tours2.html" class="dropdown-item"><span>Tours 2</span></a></li>
+                            <li><a href="ucak-listesi.html" class="dropdown-item active"><span>Tours 3</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="destination.html">Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Pages <i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="ucak-detay.html" class="dropdown-item"><span>Tour Details</span></a></li>
+                            <li><a href="tour-search.html" class="dropdown-item"><span>Tour Search</span></a></li>
+                            <li><a href="post.html" class="dropdown-item"><span>Post Single</span></a></li>
+                            <li class="dropdown-submenu dropdown"> <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" href="#"><span>Other Pages <i class="ti-angle-right"></i></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="coming-soon.html" class="dropdown-item"><span>Coming Soon</span></a></li>
+                                    <li><a href="404.html" class="dropdown-item"><span>404 Page</span></a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Blog <i class="ti-angle-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog.html" class="dropdown-item"><span>Blog 01</span></a></li>
+                            <li><a href="blog2.html" class="dropdown-item"><span>Blog 02</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="iletisim.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Header Banner -->
+
+
+    <div class="banner-header section-padding valign bg-img3 bg-fixed" data-overlay-dark="6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 caption mt-90">
+                    <h5>Travel Countries</h5>
+                    <h1>Popular <span>Flights</span></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tours 3 -->
+    <div class="tours3 section-padding">
+        <div class="container">
+            <div class="row">
+                <!-- Tour list -->
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="square-flip">
+                                <div class="square bg-img5" data-background="img/destination/rome1.jpg"> <span class="category"><a href="#0">Uçak 1</a></span>
+                                    <div class="square-container d-flex align-items-end justify-content-end">
+                                        <div class="box-title">
+                                            <h4>İstanbul - Roma</h4>
+                                            <h6>$1.500 / Bir kişi için</h6>
+                                        </div>
+                                    </div>
+                                    <div class="flip-overlay"></div>
+                                </div>
+                                <div class="square2">
+                                    <div class="square-container2">
+                                        <h4>İstanbul - Roma</h4>
+                                        <h6>$1.500 / Bir kişi için</h6>
+                                        <div class="row tour-list mb-30">
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-calendar"></i> 25 Aralık 2023</li>
+                                                    <li><i class="ti-user"></i> 20</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="fi fi-rr-plane-alt"></i> Uçak 1</li>
+                                                    <li><i class="ti-alarm-clock"></i> 15.00</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="btn-line"><a href="ucak-detay.html">Rezervasyon Yap</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="square-flip">
+                                <div class="square bg-img4" data-background="img/destination/maldives1.jpg">
+                                    <div class="square-container d-flex align-items-end justify-content-end">
+                                        <div class="box-title">
+                                            <h4>Maldives</h4>
+                                            <h6>$2.500 / per person</h6>
+                                        </div>
+                                    </div>
+                                    <div class="flip-overlay"></div>
+                                </div>
+                                <div class="square2">
+                                    <div class="square-container2">
+                                        <h4>Maldives</h4>
+                                        <h6>$2.500 / per person</h6>
+                                        <p>Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                        <div class="row tour-list mb-30">
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-time"></i> 5 Days</li>
+                                                    <li><i class="ti-user"></i> 7+</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-location-pin"></i> Maldives</li>
+                                                    <li><i class="ti-face-smile"></i> 9.8 Superb</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="btn-line"><a href="ucak-detay.html">Tour details</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="square-flip">
+                                <div class="square bg-img6" data-background="img/destination/greece1.jpg"> <span class="category"><a href="#0">Greece</a></span>
+                                    <div class="square-container d-flex align-items-end justify-content-end">
+                                        <div class="box-title">
+                                            <h4>Zakynthos</h4>
+                                            <h6>$3.000 / per person</h6>
+                                        </div>
+                                    </div>
+                                    <div class="flip-overlay"></div>
+                                </div>
+                                <div class="square2">
+                                    <div class="square-container2">
+                                        <h4>Zakynthos</h4>
+                                        <h6>$3.000 / per person</h6>
+                                        <p>Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                        <div class="row tour-list mb-30">
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-time"></i> 10 Days</li>
+                                                    <li><i class="ti-user"></i> 8+</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-location-pin"></i> Greece</li>
+                                                    <li><i class="ti-face-smile"></i> 9.5 Superb</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="btn-line"><a href="ucak-detay.html">Tour details</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="square-flip">
+                                <div class="square bg-img7" data-background="img/destination/france1.jpg">
+                                    <div class="square-container d-flex align-items-end justify-content-end">
+                                        <div class="box-title">
+                                            <h4>France</h4>
+                                            <h6>$2.500 / per person</h6>
+                                        </div>
+                                    </div>
+                                    <div class="flip-overlay"></div>
+                                </div>
+                                <div class="square2">
+                                    <div class="square-container2">
+                                        <h4>France</h4>
+                                        <h6>$2.500 / per person</h6>
+                                        <p>Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                        <div class="row tour-list mb-30">
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-time"></i> 3 Days</li>
+                                                    <li><i class="ti-user"></i> 10+</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-location-pin"></i> Italy</li>
+                                                    <li><i class="ti-face-smile"></i> 9.5 Superb</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="btn-line"><a href="ucak-detay.html">Tour details</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="square-flip">
+                                <div class="square bg-img8" data-background="img/destination/canada1.jpg">
+                                    <div class="square-container d-flex align-items-end justify-content-end">
+                                        <div class="box-title">
+                                            <h4>Canada</h4>
+                                            <h6>$1.500 / per person</h6>
+                                        </div>
+                                    </div>
+                                    <div class="flip-overlay"></div>
+                                </div>
+                                <div class="square2">
+                                    <div class="square-container2">
+                                        <h4>Canada</h4>
+                                        <h6>$1.500 / per person</h6>
+                                        <p>Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                        <div class="row tour-list mb-30">
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-time"></i> 5 Days</li>
+                                                    <li><i class="ti-user"></i> 9+</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-location-pin"></i> Canada</li>
+                                                    <li><i class="ti-face-smile"></i> 9.3 Superb</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="btn-line"><a href="ucak-detay.html">Tour details</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="square-flip">
+                                <div class="square bg-img9" data-background="img/destination/italy1.jpg">
+                                    <div class="square-container d-flex align-items-end justify-content-end">
+                                        <div class="box-title">
+                                            <h4>Italy</h4>
+                                            <h6>$1.300 / per person</h6>
+                                        </div>
+                                    </div>
+                                    <div class="flip-overlay"></div>
+                                </div>
+                                <div class="square2">
+                                    <div class="square-container2">
+                                        <h4>Italy</h4>
+                                        <h6>$1.300 / per person</h6>
+                                        <p>Travel non lorem ac erat susce bibendum nulla facilisi. Sedeuter nunc voluat miss conse viventa amet vestibulum.</p>
+                                        <div class="row tour-list mb-30">
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-time"></i> 4 Days</li>
+                                                    <li><i class="ti-user"></i> 6+</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col col-md-6">
+                                                <ul>
+                                                    <li><i class="ti-location-pin"></i> Italy</li>
+                                                    <li><i class="ti-face-smile"></i> 8.5 Superb</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="btn-line"><a href="ucak-detay.html">Tour details</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <!-- Pagination -->
+                            <ul class="blog-pagination-wrap align-center mb-30 mt-30">
+                                <li><a href="blog.html#"><i class="ti-angle-left"></i></a></li>
+                                <li><a href="blog.html#">1</a></li>
+                                <li><a href="blog.html#" class="active">2</a></li>
+                                <li><a href="blog.html#">3</a></li>
+                                <li><a href="blog.html#"><i class="ti-angle-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tour search -->
+                <div class="col-md-4">
+                    <div class="sidebar">
+                        <div class="right-sidebar">
+                            <div class="right-sidebar item">
+                                <h3><span class="right-sidebar">Bir Uçuş Planı Seçin</span></h3>
+                                <form method="post" class="right-sidebar item-form" asp-action="BiletIslemleri" asp-controller="Home">
+                                    <div class="row">
+                                        <div class="col-md-12 form-group select1_inner">
+                                            <select class="select2 select" asp-for="From">
+                                                 <option value="" disabled selected hidden>Nereden</option>
+                                                <option value="Italy">Italy</option>
+                                                <option value="Maldives">Maldives</option>
+                                                <option value="Greece">Greece</option>
+                                                <option value="France">France</option>
+                                                <option value="Canada">Canada</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-12 form-group select1_inner">
+                                            <select class="select2 select" asp-for="To">
+                                                <option value="" disabled selected hidden>Nereye</option>
+                                                <option value="Italy">Italy</option>
+                                                <option value="Maldives">Maldives</option>
+                                                <option value="Greece">Greece</option>
+                                                <option value="France">France</option>
+                                                <option value="Canada">Canada</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-12 form-group input1_inner">
+                                            <input asp-for="FromDate" type="text" class="form-control input datepicker"  placeholder="Gidiş Tarihi" required>
+                                        </div>
+                                        
+                                        <div class="col-md-12">
+                                            <button class="butn-dark" type="submit"><a><span>Uçuş Ara</span></a></button>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="background bg-img10 bg-fixed section-padding pb-0" data-background="img/slider/1.jpg" data-overlay-dark="5">
+            <div class="container">
+                <div class="row">
+                    <!-- Call Now  -->
+                    <div class="col-md-5 mb-30 mt-30">
+                        <p><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></p>
+                        <h5>We Provide Top Destinations Expecially For You Book Now and Enjoy!</h5>
+                        <div class="phone-call mb-10">
+                            <div class="icon color-1"><span class="flaticon-phone-call"></span></div>
+                            <div class="text">
+                                <p class="color-1">Call Now</p> <a class="color-1" href="tel:855-333-4444">855 333 4444</a>
+                            </div>
+                        </div>
+                        <p><i class="ti-check"></i><small>Call us, it's toll-free.</small></p>
+                    </div>
+                    <!-- Booking From -->
+                    <div class="col-md-5 offset-md-2">
+                        <div class="testimonials-box">
+                            <div class="head-box">
+                                <h6>Testimonials</h6>
+                                <h4>Travelers Reviews</h4>
+                            </div>
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="img/team/04.png" alt=""> </div>
+                                        <div class="cont">
+                                            <div class="rating"> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> </div>
+                                            <h6>Nolan White</h6> <span>Guest review</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="img/team/05.png" alt=""> </div>
+                                        <div class="cont">
+                                            <div class="rating"> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> </div>
+                                            <h6>Emily Brown</h6> <span>Guest review</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="img/team/06.png" alt=""> </div>
+                                        <div class="cont">
+                                            <div class="rating"> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> </div>
+                                            <h6>Olivia Martin</h6> <span>Guest review</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients -->
+    <section class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                <div class="owl-carousel owl-theme">
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/clients/1.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/clients/2.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/clients/3.png" alt=""></a>
+                    </div>
+                    <div class="clients-logo">
+                        <a href="#0"><img src="img/clients/4.png" alt=""></a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+<!-- jQuery UI -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Select2 öğelerini seç
+        var fromSelect = document.querySelector('[name="From"]');
+        var toSelect = document.querySelector('[name="To"]');
+
+        // Olay dinleyicisi ekle
+        fromSelect.addEventListener('change', function () {
+            // "From" seçimini "To" seçiminden kaldır
+            var selectedOptionValue = this.value;
+            var toOptions = toSelect.querySelectorAll('option');
+
+            toOptions.forEach(function (option) {
+                if (option.value === selectedOptionValue) {
+                    option.disabled = true;
+                } else {
+                    option.disabled = false;
+                }
+            });
+        });
+
+        toSelect.addEventListener('change', function () {
+            // "To" seçimini "From" seçiminden kaldır
+            var selectedOptionValue = this.value;
+            var fromOptions = fromSelect.querySelectorAll('option');
+
+            fromOptions.forEach(function (option) {
+                if (option.value === selectedOptionValue) {
+                    option.disabled = true;
+                } else {
+                    option.disabled = false;
+                }
+            });
+        });
+    });
+</script>
+<script>
+   $(function() {
+      $(".datepicker").datepicker({
+         dateFormat: 'dd.mm.yy' // örnek bir Türk tarih formatı
+      });
+   });
+</script>
+
+</body>
+</html>

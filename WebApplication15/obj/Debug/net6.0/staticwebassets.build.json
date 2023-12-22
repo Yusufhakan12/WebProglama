@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JhluP3YU0m5vYyU36uzPH0wlPf46FJqWhVDOrybuY4o=",
+  "Hash": "oRzBqCkeHZZ5i/1ADeJMKlJhMav55jJ6nBtu2n1FQ/M=",
   "Source": "WebApplication15",
   "BasePath": "_content/WebApplication15",
   "Mode": "Default",
@@ -304,6 +304,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\2.jpg",
+      "SourceId": "WebApplication15",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\",
+      "BasePath": "_content/WebApplication15",
+      "RelativePath": "img/2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\2.jpg"
     },
     {
       "Identity": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\wwwroot\\img\\about.jpeg",

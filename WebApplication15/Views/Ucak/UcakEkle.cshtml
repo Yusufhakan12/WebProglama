@@ -22,8 +22,8 @@
                             <form method="post" class="right-sidebar item-form contact__form"  asp-action="UcakEkle" asp-controller="Ucak" >
                                 <div class="row">
                                     <div class="col-md-6 form-group select1_inner">
-                                           <select class="select2 select" asp-for="AirPlaneName">
-                                               <option value="0">Nereden </option>
+                                           <select class="select2 select" asp-for="AirPlaneName"  >
+                                                <option value="" disabled selected hidden>Uçak</option>
                                                 <option value="Ucak1">Ucak1</option>
                                                 <option value="Ucak2">Ucak2</option>
                                                 <option value="Ucak3">Ucak3</option>
@@ -33,7 +33,7 @@
                                     </div>
                                     <div class="col-md-6 form-group">
                                          <select class="select2 select" asp-for="From" >
-                                                <option value="0">Nereden </option>
+                                                 <option value="" disabled selected hidden>Nereden</option>
                                                 <option value="Italy">Italy</option>
                                                 <option value="Maldives">Maldives</option>
                                                 <option value="Greece">Greece</option>
@@ -43,7 +43,7 @@
                                     </div>
                                     <div class="col-md-6 form-group">
                                         <select class="select2 select" asp-for="To">
-                                                <option value="0">Nereden </option>
+                                                <option value="" disabled selected hidden>Nereye</option>
                                                  <option value="Italy">Italy</option>
                                                 <option value="Maldives">Maldives</option>
                                                 <option value="Greece">Greece</option>
@@ -57,7 +57,7 @@
                  
                                    
                                     <div class="col-md-6 form-group">
-                                        <input asp-for="capacity" type="text" placeholder="20 *" required>
+                                        <input asp-for="capacity" type="number" placeholder="20 *" required>
                                     </div>
 
                                     <div class="col-md-12">
@@ -86,6 +86,42 @@
          dateFormat: 'dd.mm.yy' // örnek bir Türk tarih formatı
       });
    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Select2 öğelerini seç
+        var fromSelect = document.querySelector('[name="From"]');
+        var toSelect = document.querySelector('[name="To"]');
+
+        // Olay dinleyicisi ekle
+        fromSelect.addEventListener('change', function () {
+            // "From" seçimini "To" seçiminden kaldır
+            var selectedOptionValue = this.value;
+            var toOptions = toSelect.querySelectorAll('option');
+
+            toOptions.forEach(function (option) {
+                if (option.value === selectedOptionValue) {
+                    option.disabled = true;
+                } else {
+                    option.disabled = false;
+                }
+            });
+        });
+
+        toSelect.addEventListener('change', function () {
+            // "To" seçimini "From" seçiminden kaldır
+            var selectedOptionValue = this.value;
+            var fromOptions = fromSelect.querySelectorAll('option');
+
+            fromOptions.forEach(function (option) {
+                if (option.value === selectedOptionValue) {
+                    option.disabled = true;
+                } else {
+                    option.disabled = false;
+                }
+            });
+        });
+    });
 </script>
 </body>
 </html>

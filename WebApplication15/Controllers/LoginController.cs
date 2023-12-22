@@ -19,6 +19,7 @@ namespace WebApplication15.Controllers
             return View();
         }
         [HttpPost]
+
         public async Task<IActionResult> AdminPage(AdminPageViewModel model)
         {
             var email=model.Email;
@@ -56,7 +57,7 @@ namespace WebApplication15.Controllers
             {
                 // Kullanıcı adı bulundu, işlemlerinizi gerçekleştirin...
 
-                return RedirectToAction("Index", "Home"); // Örneğin, başka bir sayfaya yönlendirme
+                return RedirectToAction("BiletIslemleri", "Home"); // Örneğin, başka bir sayfaya yönlendirme
             }
             else
             {
