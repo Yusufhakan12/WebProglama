@@ -1,46 +1,15 @@
 ﻿@model WebApplication15.Models.LoginPageViewModel
 @{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
 }
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Form | Dan Aleko</title>
-  <link rel="stylesheet" href="~/css/Login.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="shortcut icon" href="img/favicon.png" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Poppins:wght@300;400;500;600;700&display=swap">
-  <link rel="stylesheet" href="~/css/plugins.css" />
-  <link rel="stylesheet" href="~/css/style.css" />
-</head>
+
 
 
 <body>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <!-- Logo -->
-            <div class="logo-wrapper">
-                <a class="logo" href="anasayfa.html"> <img src="img/logo-light.png" class="logo-img" alt=""> </a>
-                <!-- <a class="logo" href="anasayfa.html"> <h2>TRAVOL <span>explore the world</span></h2> </a> -->
-            </div>
-            <!-- Button -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
-            <!-- Menu -->
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item dropdown"> <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">Home <i class="ti-angle-down"></i></a>
 
-                    </li>
-
-                    <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="LoginPage">LogIn</a></li>
-                    <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="Add">Register</a></li>         
-                    <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="AdminPage">Admin</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
   <div class="wrapper">
   <form asp-action="LoginPage" asp-controller="Login" method="post">
   <h1>Login</h1>
@@ -52,17 +21,21 @@
     <input asp-for="PassWord" type="password" placeholder="Password" required>
     <i class='bx bxs-lock-alt' ></i>
   </div>
-  <div class="register-link">
-        <p>Dont have an account?<a asp-controller="Login" asp-action="Add"> go to register page</a></p>
-   </div>
-   <div class="register-link">
-        <p>Are you admin ?<a asp-controller="Login" asp-action="AdminPage"> Admin Sign in</a></p>
-   </div>
+ 
             @if (!string.IsNullOrEmpty(ViewData["Error2"] as string))
             {
               <p class="error">@ViewData["Error2"]</p>
             }
   <button type="submit" class="btn">Login</button>
+   <div class="register-link">
+        <p><a asp-controller="Login" asp-action="Add"> Dont have an account?</a></p>
+   </div>
+     <div class="register-link">
+        <p><a asp-controller="Home" asp-action="Index"> go to Home page</a></p>
+   </div>
+   <div class="register-link">
+        <p><a asp-controller="Login" asp-action="AdminPage"> Are you admin ?</a></p>
+   </div>
 </form>
         
   </div>

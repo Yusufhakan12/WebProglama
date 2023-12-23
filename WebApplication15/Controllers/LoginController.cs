@@ -2,6 +2,8 @@
 using WebApplication15.Data;
 using WebApplication15.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
 
 namespace WebApplication15.Controllers
 {
@@ -15,7 +17,7 @@ namespace WebApplication15.Controllers
         }
         [HttpGet]
         public IActionResult AdminPage()
-        {
+        {   
             return View();
         }
         [HttpPost]
@@ -24,12 +26,17 @@ namespace WebApplication15.Controllers
         {
             var email=model.Email;
             var passwordAdmin=model.PassWord;
-            var user = await _appDbContext.Admins.FirstOrDefaultAsync(u=>u.Email==email&u.Password==passwordAdmin);
-            if (user != null)
+            var admin = await _appDbContext.Admins.FirstOrDefaultAsync(u=>u.Email==email&u.Password==passwordAdmin);
+            if (admin != null)
             {
-                // Kullanıcı adı bulundu, işlemlerinizi gerçekleştirin...
-
-                return RedirectToAction("Index", "AdminHomePage"); // Örneğin, başka bir sayfaya yönlendirme
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, email),
+                };
+                var useridentity = new ClaimsIdentity(claims, "Login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
+                await HttpContext.SignInAsync(principal);
+                return RedirectToAction("SeferDuzenle", "Ucak"); // Örneğin, başka bir sayfaya yönlendirme
             }
             else
             {
@@ -45,7 +52,7 @@ namespace WebApplication15.Controllers
         {
             return View();
         }
-        [HttpPost]
+        
         public async Task<IActionResult> LoginPage(LoginPageViewModel model)
         {
             var userName = model.UserName;
@@ -55,8 +62,13 @@ namespace WebApplication15.Controllers
 
             if (user != null)
             {
-                // Kullanıcı adı bulundu, işlemlerinizi gerçekleştirin...
-
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, userName),
+                };
+                var useridentity = new ClaimsIdentity(claims, "Login");
+                ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
+                await HttpContext.SignInAsync(principal);
                 return RedirectToAction("BiletIslemleri", "Home"); // Örneğin, başka bir sayfaya yönlendirme
             }
             else
@@ -145,6 +157,15 @@ namespace WebApplication15.Controllers
 
             }
             return RedirectToAction("Index", "AdminHomePage");
+        }
+
+        public IActionResult Logout()
+        {
+            // Kullanıcıyı çıkış yapmaya zorla
+            HttpContext.SignOutAsync();
+
+            // İsteği başka bir sayfaya yönlendir (isteğe bağlı)
+            return RedirectToAction("Index", "Home");
         }
     }
 }

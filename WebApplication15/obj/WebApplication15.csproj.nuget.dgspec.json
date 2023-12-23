@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\WebApplication15.csproj": {}
+    "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\skcm\\WebApplication15\\WebApplication15.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\WebApplication15.csproj": {
+    "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\skcm\\WebApplication15\\WebApplication15.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\WebApplication15.csproj",
+        "projectUniqueName": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\skcm\\WebApplication15\\WebApplication15.csproj",
         "projectName": "WebApplication15",
-        "projectPath": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\WebApplication15.csproj",
+        "projectPath": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\skcm\\WebApplication15\\WebApplication15.csproj",
         "packagesPath": "C:\\Users\\yusuf\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\offf\\WebProglama-main\\WebApplication15\\obj\\",
+        "outputPath": "C:\\Users\\yusuf\\OneDrive\\Masaüstü\\skcm\\WebApplication15\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.23, )"

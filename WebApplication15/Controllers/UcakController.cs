@@ -47,7 +47,8 @@ namespace WebApplication15.Controllers
         }
 
         public async Task<IActionResult> SeferDuzenle(SeferEkleViewModel model)
-        {
+        {   
+
             var Flys = await _appDbUcakContext.Voyages.ToListAsync();
             return View(Flys);
         }
