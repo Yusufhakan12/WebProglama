@@ -50,12 +50,79 @@
                             <div class="col-md-12 form-group">
                                 <input name="phone" type="text" placeholder="Pnone Number" required>
                             </div>
+                             <div class="col-md-12 form-group">
+                            
+                           <select class="select2 select"  >
+        <option value="1A">1A</option>
+        <option value="1B">1B</option>
+        <option value="1C">1C</option>
+        <option value="1D">1D</option>
+        <option value="1E">1E</option>
+        <option value="1F">1F</option>
+        <option value="2A">2A</option>
+        <option value="2B">2B</option>
+        <option value="2C">2C</option>
+        <option value="2D">2D</option>
+        <option value="2E">2E</option>
+        <option value="2F">2F</option>
+        <option value="3A">3A</option>
+        <option value="3B">3B</option>
+        <option value="3C">3C</option>
+        <option value="3D">3D</option>
+        <option value="3E">3E</option>
+        <option value="3F">3F</option>
+        <option value="4A">4A</option>
+        <option value="4B">4B</option>
+        <option value="4C">4C</option>
+        <option value="4D">4D</option>
+        <option value="4E">4E</option>
+        <option value="4F">4F</option>
+        <option value="5A">5A</option>
+        <option value="5B">5B</option>
+        <option value="5C">5C</option>
+        <option value="5D">5D</option>
+        <option value="5E">5E</option>
+        <option value="5F">5F</option>
+        <option value="6A">6A</option>
+        <option value="6B">6B</option>
+        <option value="6C">6C</option>
+        <option value="6D">6D</option>
+        <option value="6E">6E</option>
+        <option value="6F">6F</option>
+        <option value="7A">7A</option>
+        <option value="7B">7B</option>
+        <option value="7C">7C</option>
+        <option value="7D">7D</option>
+        <option value="7E">7E</option>
+        <option value="7F">7F</option>
+        <option value="8A">8A</option>
+        <option value="8B">8B</option>
+        <option value="8C">8C</option>
+        <option value="8D">8D</option>
+        <option value="8E">8E</option>
+        <option value="8F">8F</option>
+        <option value="9A">9A</option>
+        <option value="9B">9B</option>
+        <option value="9C">9C</option>
+        <option value="9D">9D</option>
+        <option value="9E">9E</option>
+        <option value="9F">9F</option>
+        <option value="10A">10A</option>
+        <option value="10B">10B</option>
+        <option value="10C">10C</option>
+        <option value="10D">10D</option>
+        <option value="10E">10E</option>
+        <option value="10F">10F</option>
+   
+                           </select>
+                        </div>
                      
 
                             <div class="col-md-12">
                                 <button class="butn-dark"><a href="#0"><span>Bilet Al</span></a></button>
                             </div>
                         </div>
+
                     </form>
                 </div>
 
@@ -450,6 +517,31 @@
         </div>
     </section>
     <!-- Footer -->
- 
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var checkboxSeats = document.querySelectorAll('.checkbox-seat');
+        var selectedSeats = document.getElementById('selectedSeats');
+
+        checkboxSeats.forEach(function (checkbox) {
+            checkbox.addEventListener('change', function () {
+                updateSelectedSeats();
+            });
+        });
+
+        function updateSelectedSeats() {
+            selectedSeats.innerHTML = '';
+
+            checkboxSeats.forEach(function (checkbox) {
+                if (checkbox.checked) {
+                    var option = document.createElement('option');
+                    option.value = checkbox.id;
+                    option.text = checkbox.id;
+                    selectedSeats.add(option);
+                }
+            });
+        }
+    });
+</script>
 </body>
 </html>

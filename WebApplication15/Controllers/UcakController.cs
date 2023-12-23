@@ -26,6 +26,11 @@ namespace WebApplication15.Controllers
         [HttpPost]
         public async Task<IActionResult> UcakEkle(SeferEkleViewModel model)
         {
+            var Flys = await _appDbUcakContext.Voyages.FirstOrDefaultAsync(x => x.AirPlaneName == model.AirPlaneName);
+            if(Flys != null)
+            {
+                return RedirectToAction("SeferDuzenle", "Ucak");
+            }
             var Voyage = new Voyage
             {
                 VoyageId = model.VoyageId.GetHashCode(),
