@@ -1,4 +1,4 @@
-﻿@model WebApplication15.Models.AdminPageViewModel
+﻿@model WebApplication15.Models.LoginPageViewModel
 @{
     Layout = "~/Views/Shared/_LoginLayout.cshtml";
 }
@@ -11,7 +11,7 @@
   <form asp-action="AdminPage" asp-controller="Login" method="post">
   <h1>Admin Sign In</h1>
   <div class="input-box">
-    <input asp-for="Email" type="text" placeholder="E-mail" required>
+    <input asp-for="UserName" type="text" placeholder="E-mail" required>
     <i class='bx bxs-user'></i>
   </div>
   <div class="input-box">

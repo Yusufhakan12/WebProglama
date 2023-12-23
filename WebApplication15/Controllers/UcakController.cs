@@ -2,6 +2,8 @@
 using WebApplication15.Models;
 using Microsoft.EntityFrameworkCore;
 using WebApplication15.Data;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication15.Controllers
 {
@@ -10,17 +12,16 @@ namespace WebApplication15.Controllers
     public class UcakController : Controller
     {
         private readonly AppDbUcakContext _appDbUcakContext;
-
         public UcakController(AppDbUcakContext appDbUcakContext)
         {
             _appDbUcakContext = appDbUcakContext;
         }
         [HttpGet]
 
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> UcakEkle()
-        {
-            //var Flys = await _appDbUcakContext.FlyNames.ToListAsync();
-            return View();
+        {      return View();
+
         }
         [HttpPost]
         public async Task<IActionResult> UcakEkle(SeferEkleViewModel model)
@@ -45,7 +46,7 @@ namespace WebApplication15.Controllers
 
             return RedirectToAction("UcakEkle", "Ucak");
         }
-
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> SeferDuzenle(SeferEkleViewModel model)
         {   
 
@@ -53,6 +54,7 @@ namespace WebApplication15.Controllers
             return View(Flys);
         }
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> SeferGuncelle(int id)
         {
             var Flys = await _appDbUcakContext.Voyages.FirstOrDefaultAsync(x => x.VoyageId == id);

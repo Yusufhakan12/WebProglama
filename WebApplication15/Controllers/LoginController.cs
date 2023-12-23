@@ -4,6 +4,7 @@ using WebApplication15.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Identity;
 
 namespace WebApplication15.Controllers
 {
@@ -22,17 +23,20 @@ namespace WebApplication15.Controllers
         }
         [HttpPost]
 
-        public async Task<IActionResult> AdminPage(AdminPageViewModel model)
+        public async Task<IActionResult> AdminPage(LoginPageViewModel model)
         {
-            var email=model.Email;
+            var email=model.UserName;
             var passwordAdmin=model.PassWord;
-            var admin = await _appDbContext.Admins.FirstOrDefaultAsync(u=>u.Email==email&u.Password==passwordAdmin);
+     
+            var admin = await _appDbContext.Users.FirstOrDefaultAsync(u=>u.UserName==email&u.Password==passwordAdmin&u.Role=="Admin");
             if (admin != null)
             {
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.NameIdentifier, email),
                 };
+
+                claims.Add(new Claim(ClaimTypes.Role, admin.Role));
                 var useridentity = new ClaimsIdentity(claims, "Login");
                 ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
                 await HttpContext.SignInAsync(principal);
@@ -58,7 +62,7 @@ namespace WebApplication15.Controllers
             var userName = model.UserName;
             var passWord = model.PassWord;
 
-            var user = await _appDbContext.Users.FirstOrDefaultAsync(u => u.UserName == userName&u.Password==passWord);
+            var user = await _appDbContext.Users.FirstOrDefaultAsync(u => u.UserName == userName&u.Password==passWord&u.Role=="User");
 
             if (user != null)
             {
@@ -66,10 +70,11 @@ namespace WebApplication15.Controllers
                 {
                     new Claim(ClaimTypes.NameIdentifier, userName),
                 };
+                claims.Add(new Claim(ClaimTypes.Role, user.Role));
                 var useridentity = new ClaimsIdentity(claims, "Login");
                 ClaimsPrincipal principal = new ClaimsPrincipal(useridentity);
                 await HttpContext.SignInAsync(principal);
-                return RedirectToAction("BiletIslemleri", "Home"); // Örneğin, başka bir sayfaya yönlendirme
+                return RedirectToAction("Index", "Home"); // Örneğin, başka bir sayfaya yönlendirme
             }
             else
             {
@@ -101,7 +106,8 @@ namespace WebApplication15.Controllers
 
 
                     var user = new User()
-                    {
+                    {   Name=addUserRequest.Name,
+                        Role=addUserRequest.Role,
                         Id = addUserRequest.GetHashCode(), // Bu genellikle bir GUID oluşturmak yerine kullanılır. 
                         UserName = addUserRequest.UserName,
                         UserSurname=addUserRequest.UserSurname,
@@ -167,5 +173,15 @@ namespace WebApplication15.Controllers
             // İsteği başka bir sayfaya yönlendir (isteğe bağlı)
             return RedirectToAction("Index", "Home");
         }
+
+        public IActionResult AdminLogout()
+        {
+            // Kullanıcıyı çıkış yapmaya zorla
+            HttpContext.SignOutAsync();
+
+            // İsteği başka bir sayfaya yönlendir (isteğe bağlı)
+            return RedirectToAction("Index", "Home");
+        }
+
     }
 }

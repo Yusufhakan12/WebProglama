@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WebApplication15.Data;
+using WebApplication15.Models;
 
 namespace WebApplication15.Controllers
 {
@@ -15,8 +17,11 @@ namespace WebApplication15.Controllers
         [HttpGet]
         public async Task <IActionResult> Index()
         {
-          var users= await _appDbContext.Users.ToListAsync();
-            return View(users);
+                var users = await _appDbContext.Users.ToListAsync();
+                return View(users);
+            
+           
+          
         }
     }
 }

@@ -23,23 +23,30 @@ namespace WebApplication15.Controllers
         [HttpGet]
         public IActionResult BiletIslemleri()
         {
-            return View();
+            if (User.Identity.IsAuthenticated)
+            {
+                return View();
+
+
+            }
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpPost]
         public async Task<IActionResult> BiletIslemleri(SeferEkleViewModel model)
-        {
+        {   
             var seferListesi = await _appDbUcakContext.Voyages
                     .Where(u => u.From == model.From && u.To == model.To && u.FromDate.ToUniversalTime() == model.FromDate.ToUniversalTime())
                     .ToListAsync();
+            
             // Formdan gelen verileri kontrol et
             if (seferListesi.Any())
             {
                 // Veritabanında sorgu yap
-                
 
+                ViewData["from"] = model.From;
                 // Sefer listesini view'e gönder
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Buy");
             }
 
             // Form geçersizse aynı sayfaya geri dön

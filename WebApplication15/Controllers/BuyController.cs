@@ -7,10 +7,9 @@ namespace WebApplication15.Controllers
         
         public IActionResult Index()
         {   
-            if(User.Identity.IsAuthenticated)
-            return View();
-
-            return RedirectToAction("Home","Index");
+           
+           return View();
+  
         }
     }
 }
