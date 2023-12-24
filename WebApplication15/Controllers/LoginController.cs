@@ -66,6 +66,7 @@ namespace WebApplication15.Controllers
 
             if (user != null)
             {
+                HttpContext.Session.SetInt32("UserId",user.Id);
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.NameIdentifier, userName),

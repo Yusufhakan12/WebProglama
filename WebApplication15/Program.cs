@@ -8,7 +8,16 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("WebApiDatabase")));
 builder.Services.AddDbContext<AppDbUcakContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("UcakApiDatabase")));
+builder.Services.AddDbContext<AppDbBiletContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("BiletApiDatabase")));
 
+builder.Services.AddDistributedMemoryCache(); // Bellek tabanlý oturum için
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Oturum süresi
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(options =>
@@ -36,7 +45,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseSession();
 app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();

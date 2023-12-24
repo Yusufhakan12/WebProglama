@@ -9,12 +9,14 @@ namespace WebApplication15.Controllers
     public class HomeController : Controller
     {
         private readonly AppDbUcakContext _appDbUcakContext;
+        private readonly AppDbBiletContext _appDbBiletContext;
 
-        public HomeController(AppDbUcakContext appDbUcakContext)
+        public HomeController(AppDbUcakContext appDbUcakContext, AppDbBiletContext appDbBiletContext)
         {
             _appDbUcakContext = appDbUcakContext;
+            _appDbBiletContext = appDbBiletContext;
         }
-       
+
 
         public IActionResult Index()
         {
@@ -42,9 +44,13 @@ namespace WebApplication15.Controllers
             // Formdan gelen verileri kontrol et
             if (seferListesi.Any())
             {
-                // Veritabanında sorgu yap
+                var yeterid = seferListesi.FirstOrDefault().VoyageId;
 
-                ViewData["from"] = model.From;
+                // Veritabanında sorgu yap
+                HttpContext.Session.SetInt32("voyageid",yeterid);
+                TempData["from"] = model.From;
+                TempData["To"] = model.To;
+                TempData["FromDate"] = model.FromDate.Date;
                 // Sefer listesini view'e gönder
                 return RedirectToAction("Index", "Buy");
             }

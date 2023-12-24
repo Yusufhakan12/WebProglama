@@ -1,4 +1,4 @@
-﻿
+﻿@model WebApplication15.Models.BuyViewModel;
 @{
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
 }
@@ -9,7 +9,6 @@
 </head>
 <body>
 
-    <!-- Navbar -->
    
     <!-- Tour Page Slider -->
       <header class="header full-height valign bg-img3 bg-fixed" data-overlay-dark="4" data-background="img/slider/1.jpg">
@@ -29,30 +28,25 @@
             <div class="row">
                 <div class="col-md-8 mb-30">
                     <div class="section-subtitle">Plane Agency</div>
-                    <div class="section-title mb-0">@ViewData["from"] - <span>Roma</span></div>
+                    <div class="section-title mb-0">@TempData["from"] - <span>@TempData["To"]</span></div>
                     <div class="rating mb-30"> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i> <i class="star active"></i>
                         <div class="reviews-count color-2">(2 Reviews)</div>
                     </div>
                     <div class="tour-page head-icon">
-                        <p><i class="ti-calendar"></i>25 Aralık</p>
+                        <p><i class="ti-calendar"></i>@TempData["FromDate"]</p>
                         <p><i class="ti-user"></i> 20 </p>
-                        <p><i class="fi fi-rr-plane-alt"></i> Uçak 1</p>
-                        <p><i class="ti-alarm-clock"></i> 15.00 - 17.00</p>
                     </div>
-                    <form method="post" class="right-sidebar item-form" action="">
+                    <form method="post" class="right-sidebar item-form" asp-action="Index" asp-controller="Buy">
                         <div class="row">
                             <div class="col-md-12 form-group">
-                                <input name="name" type="text" placeholder="User Name" required>
+                                <input asp-for="UserName" type="text" placeholder="User Name" required>
                             </div>
                             <div class="col-md-12 form-group">
-                                <input name="email" type="email" placeholder="Email Address" required>
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <input name="phone" type="text" placeholder="Pnone Number" required>
+                                <input asp-for="UserSurName" type="text" placeholder="User SurName" required>
                             </div>
                              <div class="col-md-12 form-group">
                             
-                           <select class="select2 select"  >
+                           <select class="select2 select" asp-for="SeatId" >
         <option value="1A">1A</option>
         <option value="1B">1B</option>
         <option value="1C">1C</option>
@@ -116,10 +110,12 @@
    
                            </select>
                         </div>
-                     
+                                <div>
+                                    <p>@ViewData["Error3"]</p>
+                                </div>
 
                             <div class="col-md-12">
-                                <button class="butn-dark"><a href="#0"><span>Bilet Al</span></a></button>
+                                <button type="submit" class="butn-dark"><a><span>Bilet Al</span></a></button>
                             </div>
                         </div>
 
