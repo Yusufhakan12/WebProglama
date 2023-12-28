@@ -1,0 +1,95 @@
+﻿@model List<WebApplication15.Data.Ticket>
+@{
+
+}
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <title>@ViewData["Title"]</title>
+    <link rel="shortcut icon" href="~/img/favicon.png"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500&family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="~/css/plugins.css"/>
+    <link rel="stylesheet" href="~/css/style.css"/>
+     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar2" >
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+            <a class="logo" href="anasayfa.html"> <img src="~/img/logo-light.png" class="logo-img" alt=""> </a>
+            <!-- <a class="logo" href="anasayfa.html"> <h2>TRAVOL <span>explore the world</span></h2> </a> -->
+        </div>
+        <!-- Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"><i class="ti-menu"></i></span></button>
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item "> <a class="nav-link " asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="nav-item"><a class="nav-link  " asp-controller="Login" asp-action="AdminLogout" >Çıkış yap</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="contact section-padding">
+    <div class="container">
+        <div class="row mb-90">
+            <div class="col-12 mb-30">
+                <div class="sidebar">
+                    <div class="right-sidebar">
+                        <div class="right-sidebar item">
+                            <h2>Uçak Seferi Düzenle</h2>
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">İsim</th>
+                                    <th scope="col">Soy isim</th>
+                                    <th scope="col">Koltuk Numarası</th>
+                                    <th scope="col">Kimlik No</th>
+                                    <th scope="col">Sefer  No</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var BuyViewMdel in Model)
+                                    {         
+                                                    <tr>
+
+                                                        <td>@BuyViewMdel.UserName</td>
+                                                                <td>@BuyViewMdel.UserSurName</td>
+                                                                 <td>@BuyViewMdel.SeatId</td>
+                                                                   <td> @BuyViewMdel.UserId</td>
+                                                                       <td> @BuyViewMdel.VoyageId</td>
+                                                                  
+
+
+                                                       </tr>
+                                    }
+
+
+                                    <td>
+
+
+                                    </td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+    </body>

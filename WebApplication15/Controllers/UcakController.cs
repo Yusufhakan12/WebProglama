@@ -49,7 +49,7 @@ namespace WebApplication15.Controllers
             await _appDbUcakContext.Voyages.AddAsync(Voyage);
             await _appDbUcakContext.SaveChangesAsync();
 
-            return RedirectToAction("UcakEkle", "Ucak");
+            return RedirectToAction("SeferDuzenle", "Ucak");
         }
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> SeferDuzenle(SeferEkleViewModel model)
@@ -83,6 +83,7 @@ namespace WebApplication15.Controllers
         }
 
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> SeferGuncelle(SeferUpdateViewModel model)
         {
             var Flys = await _appDbUcakContext.Voyages.FindAsync(model.VoyageId);
@@ -103,6 +104,7 @@ namespace WebApplication15.Controllers
             return RedirectToAction("SeferDuzenle", "Ucak");
         }
         [HttpPost]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult>DeleteVoyage(SeferUpdateViewModel model)
         {
             var Flys = await _appDbUcakContext.Voyages.FindAsync(model.VoyageId);

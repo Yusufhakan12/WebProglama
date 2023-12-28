@@ -10,31 +10,32 @@
   <div class="wrapper">
   <form asp-action="Add" asp-controller="Login" method="post">
   <h1>Register</h1>
-  <div class="input-box">
-    <input asp-for="UserName" type="text" placeholder="Username" required>
+  
+   <div class="input-box">
+    <input asp-for="Name" type="text" placeholder="@_localization.GetKey("İsim").Value" required>
     <i class='bx bxs-user'></i>
   </div>
    <div class="input-box">
-    <input asp-for="Name" type="text" placeholder="name" required>
-    <i class='bx bxs-user'></i>
-  </div>
-   <div class="input-box">
-    <input asp-for="UserSurname" type="text" placeholder="UserSurname" required>
+    <input asp-for="UserSurname" type="text" placeholder="@_localization.GetKey("Kullanıcı Soyadı").Value" required>
     <i class='bx bxs-user'></i>
   </div>
   <div class="input-box">
-    <input asp-for="PassWord" type="password" placeholder="Password" required>
+    <input asp-for="UserName" type="text" placeholder="@_localization.GetKey("Kullanıcı adı").Value" required>
+    <i class='bx bxs-user'></i>
+  </div>
+  <div class="input-box">
+    <input asp-for="PassWord" type="password" placeholder="@_localization.GetKey("Şifre").Value" required>
     <i class='bx bxs-lock-alt' ></i>
   </div>
    <div class="input-box">
-    <input asp-for="ConfirmPassWord" type="password" placeholder="Password again" required>
+    <input asp-for="ConfirmPassWord" type="password" placeholder="@_localization.GetKey("Şifre Tekrar").Value" required>
     <i class='bx bxs-lock-alt' ></i>
   </div>
             @if (!string.IsNullOrEmpty(ViewData["Error"] as string))
             {
                     <p class="error">@ViewData["Error"]</p>
             }
-  <button type="submit" class="btn">Register</button>
+  <button type="submit" class="btn">@_localization.GetKey("Üye ol").Value</button>
 </form>
   </div>
 </body>

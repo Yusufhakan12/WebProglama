@@ -14,25 +14,48 @@
     <link rel="stylesheet" href="~/css/style.css" />
 </head>
 <body>
-     <div class="preloader-bg"></div>
-    <div id="preloader">
-        <div id="preloader-status">
-            <div class="preloader-position loader"> <span></span> </div>
-        </div>
-    </div>
-    <!-- Progress scroll totop -->
-    <div class="progress-wrap cursor-pointer">
-        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-        </svg>
-    </div>
+     
         <nav class="navbar navbar-expand-lg">
+                <ul class="navbar-nav ">
+
+                        <li>
+                            <div class="dropdown">
+                                <button type="button" 
+                                    class="btn btn-primary dropdown-toggle" 
+                                    data-bs-toggle="dropdown"> Dil seçimi 
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a 
+                                            asp-controller="Home" 
+                                            asp-action="ChangeLangueage" 
+                                            asp-route-culture="en-US" 
+                                            class="dropdown-item">
+                                            <i class="flag-icon flag-icon-gb"></i> English
+                                        </a>
+                                    </li>
+                                    <li>
+
+                                        <a 
+                                            asp-controller="Home" 
+                                            asp-action="ChangeLangueage" 
+                                            asp-route-culture="tr-TR" 
+                                            class="dropdown-item">
+                                            <i class="flag-icon flag-icon-gb"></i> Türkçe
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
         <div class="container">
             <!-- Logo -->
+
             <div class="logo-wrapper">
                 <a class="logo" href="anasayfa.html"> <img src="img/logo-light.png" class="logo-img" alt=""> </a>
                 <!-- <a class="logo" href="anasayfa.html"> <h2>TRAVOL <span>explore the world</span></h2> </a> -->
             </div>
+
             <!-- Button -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
             <!-- Menu -->
@@ -45,31 +68,33 @@
                     {       
                         if(User.IsInRole("Admin"))
                         {
-                                    <li class="nav-item "> <a class="nav-link " asp-controller="Home" asp-action="Index">Home</a></li>
-                                 <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="BiletIslemleri">Sefer Ara</a></li>
-                                         <li class="nav-item"><a class="nav-link" asp-controller="AdminHomePage" asp-action="Index">Admin paneli</a></li>
-                                <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="Logout">Çıkış Yap</a></li>
+                                            <li class="nav-item "> <a class="nav-link " asp-controller="Home" asp-action="Index">@_localization.GetKey("Anasayfa").Value</a></li>
+                                         <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="BiletIslemleri">@_localization.GetKey("Sefer Ara").Value</a></li>
+                                                 <li class="nav-item"><a class="nav-link" asp-controller="AdminHomePage" asp-action="Index">@_localization.GetKey("Admin paneli")</a></li>
+                                        <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="Logout">@_localization.GetKey("Çıkış yap").Value</a></li>
                         }
                         else
                         {
-                                    <li class="nav-item "> <a class="nav-link " asp-controller="Home" asp-action="Index">Home</a></li>
-                                         <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="BiletIslemleri">Sefer Ara</a></li>
-                                        <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="Logout">Çıkış Yap</a></li>
+                                            <li class="nav-item "> <a class="nav-link " asp-controller="Home" asp-action="Index">@_localization.GetKey("Anasayfa").Value</a></li>
+                                                 <li class="nav-item"><a class="nav-link" asp-controller="Home" asp-action="BiletIslemleri">@_localization.GetKey("Sefer Ara").Value</a></li>
+                                                         <li class="nav-item"><a class="nav-link" asp-controller="Biletlerim" asp-action="Index">Biletlerim</a></li>
+                                               <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="Logout">@_localization.GetKey("Çıkış yap").Value</a></li>
                         }
                         
                     }
                     else
                     {   
-                                <li class="nav-item "> <a class="nav-link " asp-controller="Home" asp-action="Index">Home</a></li>
-                          <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="LoginPage">LogIn</a></li>
-                        <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="Add">Register</a></li>         
-                        <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="AdminPage">Admin</a></li>
+                                    <li class="nav-item "> <a class="nav-link " asp-controller="Home" asp-action="Index">@_localization.GetKey("Anasayfa").Value</a></li>
+                              <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="LoginPage">@_localization.GetKey("Giriş yap").Value</a></li>
+                            <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="Add">@_localization.GetKey("Üye ol").Value</a></li>         
+                               <li class="nav-item"><a class="nav-link" asp-controller="Login" asp-action="AdminPage">@_localization.GetKey("Admin Girişi").Value</a></li>     
                     }
 
                     
                 </ul>
             </div>
         </div>
+                
     </nav>
 
     @RenderBody();

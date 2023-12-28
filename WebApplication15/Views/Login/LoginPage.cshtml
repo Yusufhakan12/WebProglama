@@ -12,13 +12,13 @@
 
   <div class="wrapper">
   <form asp-action="LoginPage" asp-controller="Login" method="post">
-  <h1>Login</h1>
+  <h1>@_localization.GetKey("Giriş").Value</h1>
   <div class="input-box">
-    <input asp-for="UserName" type="text" placeholder="Username" required>
+    <input asp-for="UserName" type="text" placeholder="@_localization.GetKey("Kullanıcı adı").Value" required>
     <i class='bx bxs-user'></i>
   </div>
   <div class="input-box">
-    <input asp-for="PassWord" type="password" placeholder="Password" required>
+    <input asp-for="PassWord" type="password" placeholder="@_localization.GetKey("Şifre").Value" required>
     <i class='bx bxs-lock-alt' ></i>
   </div>
  
@@ -26,15 +26,15 @@
             {
               <p class="error">@ViewData["Error2"]</p>
             }
-  <button type="submit" class="btn">Login</button>
+  <button type="submit" class="btn">@_localization.GetKey("Giriş").Value</button>
    <div class="register-link">
-        <p><a asp-controller="Login" asp-action="Add"> Dont have an account?</a></p>
+        <p><a asp-controller="Login" asp-action="Add"> @_localization.GetKey("Hesabınız yok mu ?").Value</a></p>
    </div>
      <div class="register-link">
-        <p><a asp-controller="Home" asp-action="Index"> go to Home page</a></p>
+        <p><a asp-controller="Home" asp-action="Index"> @_localization.GetKey("Anasayfaya dön").Value</a></p>
    </div>
    <div class="register-link">
-        <p><a asp-controller="Login" asp-action="AdminPage"> Are you admin ?</a></p>
+        <p><a asp-controller="Login" asp-action="AdminPage"> @_localization.GetKey("Admin misiniz ?").Value</a></p>
    </div>
 </form>
         

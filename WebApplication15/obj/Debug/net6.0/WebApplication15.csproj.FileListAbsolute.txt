@@ -139,3 +139,10 @@ C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\obj\Debug\net6.0\WebApp
 C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\obj\Debug\net6.0\WebApplication15.genruntimeconfig.cache
 C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\obj\Debug\net6.0\ref\WebApplication15.dll
 C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\bin\Debug\net6.0\en-US\WebApplication15.resources.dll
+C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\bin\Debug\net6.0\tr-TR\WebApplication15.resources.dll
+C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\obj\Debug\net6.0\WebApplication15.csproj.GenerateResource.cache
+C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\obj\Debug\net6.0\en-US\WebApplication15.resources.dll
+C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\obj\Debug\net6.0\tr-TR\WebApplication15.resources.dll
+C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\obj\Debug\net6.0\WebApplication15.Resources.SharedResource.en-US.resources
+C:\Users\yusuf\OneDrive\Masaüstü\skcm\WebApplication15\obj\Debug\net6.0\WebApplication15.Resources.SharedResource.tr-TR.resources

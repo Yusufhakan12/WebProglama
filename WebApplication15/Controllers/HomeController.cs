@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using WebApplication15.Data;
 using WebApplication15.Models;
+using WebApplication15.Services;
 
 namespace WebApplication15.Controllers
 {
@@ -10,16 +12,19 @@ namespace WebApplication15.Controllers
     {
         private readonly AppDbUcakContext _appDbUcakContext;
         private readonly AppDbBiletContext _appDbBiletContext;
-
-        public HomeController(AppDbUcakContext appDbUcakContext, AppDbBiletContext appDbBiletContext)
+        private  LanguageService _localization;
+        public HomeController(AppDbUcakContext appDbUcakContext, AppDbBiletContext appDbBiletContext,LanguageService localization)
         {
             _appDbUcakContext = appDbUcakContext;
             _appDbBiletContext = appDbBiletContext;
+            _localization=localization;
         }
 
 
         public IActionResult Index()
         {
+            ViewBag.Merhaba = _localization.GetKey("Merhaba").Value;
+            var currentCulture = Thread.CurrentThread.CurrentCulture.Name;
             return View();
         }
         [HttpGet]
@@ -61,6 +66,16 @@ namespace WebApplication15.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+        public IActionResult ChangeLangueage(string culture)
+        {
+            Response.Cookies.Append(CookieRequestCultureProvider.DefaultCookieName,
+                CookieRequestCultureProvider.MakeCookieValue(new RequestCulture(culture)), new CookieOptions()
+                {
+                    Expires = DateTimeOffset.UtcNow.AddYears(1)
+                }
+                ); ;
+            return Redirect(Request.Headers["Referer"].ToString());
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

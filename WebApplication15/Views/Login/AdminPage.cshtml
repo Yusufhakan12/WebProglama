@@ -9,20 +9,20 @@
 <body>
   <div class="wrapper">
   <form asp-action="AdminPage" asp-controller="Login" method="post">
-  <h1>Admin Sign In</h1>
+  <h1>Admin @_localization.GetKey("Giriş").Value</h1>
   <div class="input-box">
     <input asp-for="UserName" type="text" placeholder="E-mail" required>
     <i class='bx bxs-user'></i>
   </div>
   <div class="input-box">
-    <input asp-for="PassWord" type="password" placeholder="Password" required>
+    <input asp-for="PassWord" type="password" placeholder="@_localization.GetKey("Şifre").Value" required>
     <i class='bx bxs-lock-alt' ></i>
   </div>
             @if (!string.IsNullOrEmpty(ViewData["Error2"] as string))
             {
                   <p class="error">@ViewData["Error2"]</p>
             }
-  <button type="submit" class="btn">Login</button>
+  <button type="submit" class="btn">@_localization.GetKey("Giriş").Value</button>
   <div class="register-link">
         <p><a asp-controller="Login" asp-action="LoginPage"> back to Login page</a></p>
    </div>
