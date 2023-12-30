@@ -12,7 +12,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 #region Localizer
 builder.Services.AddSingleton<LanguageService>();
-builder.Services.AddSwaggerGen();
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
 builder.Services.AddMvc().AddViewLocalization().AddDataAnnotationsLocalization(options =>
     options.DataAnnotationLocalizerProvider = (type, factory) =>

@@ -8,8 +8,7 @@ using Microsoft.AspNetCore.Authorization;
 namespace WebApplication15.Controllers
 {
 
-        [ApiController]
-
+  
     public class UcakController : Controller
     {
         private readonly AppDbUcakContext _appDbUcakContext;
@@ -17,7 +16,6 @@ namespace WebApplication15.Controllers
         {
             _appDbUcakContext = appDbUcakContext;
         }
-        [HttpGet]
 
         [Authorize(Roles ="Admin")]
         public async Task<IActionResult> UcakEkle()
@@ -29,7 +27,7 @@ namespace WebApplication15.Controllers
             }
             else
             {
-                return NotFound();
+                return RedirectToAction("SeferDuzenle", "Ucak");
             }
 
 
@@ -62,6 +60,28 @@ namespace WebApplication15.Controllers
                 await _appDbUcakContext.Voyages.AddAsync(Voyage);
                 await _appDbUcakContext.SaveChangesAsync();
 
+                return RedirectToAction("SeferDuzenle", "Ucak");
+            }
+            if(donus==null&&Flys==null)
+            {
+                var Voyage = new Voyage
+                {
+                    VoyageId = model.VoyageId.GetHashCode(),
+
+                    From = model.From,
+                    To = model.To,
+                    AirPlaneName = model.AirPlaneName,
+                    FromDate = model.FromDate.ToUniversalTime(),
+                    capacity = model.capacity,
+
+
+
+
+                };
+                await _appDbUcakContext.Voyages.AddAsync(Voyage);
+                await _appDbUcakContext.SaveChangesAsync();
+                string? capacity = model.capacity;
+                HttpContext.Session.SetString("capacity", capacity);
                 return RedirectToAction("SeferDuzenle", "Ucak");
             }
 
