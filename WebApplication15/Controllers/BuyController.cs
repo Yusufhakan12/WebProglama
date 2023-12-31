@@ -59,11 +59,14 @@ namespace WebApplication15.Controllers
                 await _appDbBiletContext.SaveChangesAsync();
 
                 var Flys = await _appDbUcakContext.Voyages.FindAsync(voy);
-               
+                string prevcapacity = Flys.capacity;
+                int newcapacity;
+                int.TryParse(prevcapacity, out newcapacity);
+                newcapacity -= 1;
                 if(Flys != null)
                 {
-                    
 
+                    Flys.capacity = newcapacity.ToString();
                     await _appDbUcakContext.SaveChangesAsync();
                 }
 

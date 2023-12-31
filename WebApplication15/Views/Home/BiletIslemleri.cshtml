@@ -282,7 +282,8 @@
                                         <div class="col-md-12 form-group input1_inner">
                                             <input asp-for="FromDate" type="text" class="form-control input datepicker"  placeholder="Gidiş Tarihi" required>
                                         </div>
-                                        
+                                            <p>@ViewData["capacityError"]</p>
+                                            <p>@ViewData["VoyageError"]</p>
                                         <div class="col-md-12">
                                             <button class="butn-dark" type="submit"><a><span>Uçuş Ara</span></a></button>
                                         </div>

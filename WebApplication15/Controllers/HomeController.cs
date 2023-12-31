@@ -45,23 +45,37 @@ namespace WebApplication15.Controllers
             var seferListesi = await _appDbUcakContext.Voyages
                     .Where(u => u.From == model.From && u.To == model.To && u.FromDate.ToUniversalTime() == model.FromDate.ToUniversalTime())
                     .ToListAsync();
-            
+          
             // Formdan gelen verileri kontrol et
             if (seferListesi.Any())
             {
-                var yeterid = seferListesi.FirstOrDefault().VoyageId;
+                var FlysId = seferListesi.FirstOrDefault().VoyageId;
+                var FlyCapacity = seferListesi.FirstOrDefault().capacity;
+                string prevcapacity = FlyCapacity;
+                int newcapacity;
+                int.TryParse(prevcapacity, out newcapacity);
 
-                // Veritabanında sorgu yap
-                HttpContext.Session.SetInt32("voyageid",yeterid);
-                TempData["from"] = model.From;
-                TempData["To"] = model.To;
-                TempData["FromDate"] = model.FromDate.Date;
-                // Sefer listesini view'e gönder
-                return RedirectToAction("Index", "Buy");
+                if(newcapacity > 0)
+                {
+                    HttpContext.Session.SetInt32("voyageid", FlysId);
+
+                    TempData["from"] = model.From;
+                    TempData["To"] = model.To;
+                    TempData["FromDate"] = model.FromDate.Date;
+                    // Sefer listesini view'e gönder
+                    return RedirectToAction("Index", "Buy");
+                }
+                else
+                {
+                    ViewData["capacityError"] = "Uçak dolu";
+                    return View();
+                }
+               
             }
 
-            // Form geçersizse aynı sayfaya geri dön
-            return RedirectToAction("BiletIslemleri", "Home");
+            ViewData["VoyageError"] = "Sefer bulunamadı";
+            return View();
+            
         }
         public IActionResult Privacy()
         {

@@ -42,7 +42,7 @@ namespace WebApplication15.Controllers
             }
             var donus=await _appDbUcakContext.Voyages.FirstOrDefaultAsync(x => (x.AirPlaneName == model.AirPlaneName && model.To==x.From&&model.From==x.To)&&(model.FromDate.Day-x.FromDate.Day>0));
             if(donus!=null)
-            {
+            {   
                 var Voyage = new Voyage
                 {
                     VoyageId = model.VoyageId.GetHashCode(),
@@ -80,8 +80,7 @@ namespace WebApplication15.Controllers
                 };
                 await _appDbUcakContext.Voyages.AddAsync(Voyage);
                 await _appDbUcakContext.SaveChangesAsync();
-                string? capacity = model.capacity;
-                HttpContext.Session.SetString("capacity", capacity);
+               
                 return RedirectToAction("SeferDuzenle", "Ucak");
             }
 
